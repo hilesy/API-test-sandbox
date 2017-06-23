@@ -1,7 +1,6 @@
 process.env.NODE_ENV = 'test';
 
 let mongoose = require("mongoose");
-mongoose.Promise = require('bluebird')
 let Book = require('../app/models/book');
 
 let chai = require('chai');
